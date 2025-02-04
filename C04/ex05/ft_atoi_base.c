@@ -20,7 +20,9 @@ int	ft_base_valid(char *base)
 	j = 1;
 	while (base[i])
 	{
-		if (base[i] == '-' || base[i] == '+')
+		if (base[i] == '-' || base[i] == '+'
+			|| (base[i] >= '\t' && base[i] <= '\r')
+			|| base[i] == ' ')
 			return (0);
 		j = 1;
 		while (base[i + j])
