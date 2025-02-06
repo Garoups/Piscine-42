@@ -49,7 +49,7 @@ char	*ft_strdup(char *src)
 	return (copy);
 }
 
-/*int	main(void)
+int	main(void)
 {
 	char src[] = "eu gosto de pudim";
 	char *copy;
@@ -57,4 +57,4 @@ char	*ft_strdup(char *src)
 	printf("%s", copy);
 	free (copy);
 	return (0);
-}*/
+}
